@@ -1,0 +1,19 @@
+.info-icon {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .info-icon:hover::before {
+    content: attr(title);
+    position: absolute;
+    background-color: rgba(96, 95, 95, 0.956);
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 1;
+    top: -320%;
+    left: 160%;
+    transform: translateX(-50%);
+  }

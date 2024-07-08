@@ -1,0 +1,15 @@
+<svg width="25.000000" height="25.000000" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<circle id="Ellipse 50" cx="12.500000" cy="12.500000" r="12.500000" fill="#E2E0F4" fill-opacity="1.000000"/>
+	<circle id="Ellipse 50" cx="12.500000" cy="12.500000" r="12.000000" stroke="#352C80" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	<mask id="mask145_1659" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="25.000000" height="25.000000">
+		<circle id="Ellipse 51" cx="12.500000" cy="12.500000" r="12.500000" fill="#E2E0F4" fill-opacity="1.000000"/>
+		<circle id="Ellipse 51" cx="12.500000" cy="12.500000" r="12.000000" stroke="#352C80" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	</mask>
+	<g mask="url(#mask145_1659)">
+		<path id="Vector" d="M12.18 2.69C9.73 2.69 7.73 4.68 7.73 7.13C7.73 9.58 9.73 11.57 12.18 11.57C14.62 11.57 16.62 9.58 16.62 7.13C16.62 4.68 14.62 2.69 12.18 2.69ZM17.7 14.48C16.49 13.24 14.87 12.56 13.16 12.56L11.19 12.56C9.48 12.56 7.86 13.24 6.65 14.48C5.44 15.7 4.77 17.33 4.77 19.04C4.77 19.32 4.5 28.67 4.77 28.67L13.16 30.26L20.34 28.06C19.21 28.48 19.58 19.32 19.58 19.04C19.58 17.33 18.91 15.7 17.7 14.48Z" fill="#352C80" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

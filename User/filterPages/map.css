@@ -1,0 +1,81 @@
+.map {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+.map,
+leaflet-container {
+    border-radius: 50%;
+  height: 67.5%;
+}
+
+.info-flag img {
+  width: 100px;
+  border-radius: 3px;
+}
+
+.info-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+}
+
+.info-container {
+  width: 150px;
+}
+
+.info-flag {
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.info-confirmed,
+.info-recovered,
+.info-deaths {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.slider {
+
+
+  -webkit-appearance: none;
+  height: 8px;
+  accent-color: green !important;
+  margin-bottom: 15px;
+  background-color: #D9D9D9;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+
+  background-color: #332D7C;
+  overflow: visible;
+  cursor: pointer;
+}
+.slider::-webkit-slider-runnable-track {
+  accent-color: #F76900;
+  border: none;
+  outline: none;
+}
+.pruple{
+accent-color: #332D7C;
+}
+.pp{
+accent-color: #ddd;
+}

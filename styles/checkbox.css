@@ -1,0 +1,43 @@
+/* / Style the checkbox / */
+.checkbox-input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #352c80;
+  outline: none; 
+  cursor: pointer;
+  position: relative; 
+}
+
+/* / Style the checkbox when checked / */
+.checkbox-input:checked {
+  background-color: white;
+  font-weight: 600;
+}
+
+/* / Style the checkmark / */
+.checkbox-input::before {
+  content: "\2713"; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 12px;
+}
+
+/* / Style the checkmark when checkbox is checked / */
+.checkbox-input:checked::before {
+  color: #352c80; 
+}
+.highlightedd {
+ 
+  border-color: rgba(202, 202, 202, 1);
+
+}
+.hight {
+  border-color: rgba(202, 202, 202, 0.4);
+}
+
